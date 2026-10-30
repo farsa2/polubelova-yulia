@@ -9,11 +9,13 @@
 
     <AppHeader />
     <RouterView />
+    <AppFooter />
   </div>
 </template>
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
+import AppFooter from './components/AppFooter.vue'
 import AppHeader from './components/AppHeader.vue'
 import IntroLoader from './components/IntroLoader.vue'
 

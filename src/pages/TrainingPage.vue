@@ -1,12 +1,12 @@
 <template>
   <main class="page">
     <section class="section">
-      <SectionTitle eyebrow="Тренировки" title="Индивидуально, дети и взрослые группы" />
+      <SectionTitle tag="h1" eyebrow="Тренировки" title="Кикбоксинг для детей и взрослых" />
       <div class="training-list">
-        <TrainingRow title="Пробная тренировка" meta="Start" text="Знакомство с кикбоксингом, тренером и форматом занятий. Запись через Telegram." />
+        <TrainingRow title="Пробная тренировка" meta="Start" text="Знакомство с секцией кикбоксинга в Сочи, тренером и форматом занятий. Запись через Telegram." />
         <TrainingRow title="Индивидуальные тренировки" meta="Personal" text="Персональный фокус на технику кикбоксинга, физическую форму, ошибки и прогресс." />
-        <TrainingRow title="Детские группы" meta="Kids" text="Дисциплина, координация, уважение и безопасное освоение кикбоксинга." />
-        <TrainingRow title="Взрослые группы" meta="Adults" text="Кикбоксинг для формы, самообороны, техники и спортивного развития." />
+        <TrainingRow title="Детские группы" meta="Kids" text="Единоборства для детей: дисциплина, координация и безопасное освоение кикбоксинга." />
+        <TrainingRow title="Взрослые группы" meta="Adults" text="Кикбоксинг для взрослых: форма, техника и спортивное развитие." />
       </div>
     </section>
   </main>

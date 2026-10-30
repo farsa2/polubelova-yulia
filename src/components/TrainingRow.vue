@@ -1,7 +1,7 @@
 <template>
   <article class="training-row" v-motion-slide-visible-once-bottom>
     <span>{{ meta }}</span>
-    <h3>{{ title }}</h3>
+    <h2>{{ title }}</h2>
     <p>{{ text }}</p>
   </article>
 </template>

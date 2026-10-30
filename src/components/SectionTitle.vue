@@ -1,10 +1,14 @@
 <template>
   <div class="section-title" v-motion-slide-visible-once-bottom>
     <p class="eyebrow">{{ eyebrow }}</p>
-    <h2>{{ title }}</h2>
+    <component :is="tag">{{ title }}</component>
   </div>
 </template>
 
 <script setup>
-defineProps({ eyebrow: String, title: String })
+defineProps({
+  eyebrow: String,
+  title: String,
+  tag: { type: String, default: 'h2' },
+})
 </script>

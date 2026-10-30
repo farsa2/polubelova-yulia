@@ -20,12 +20,15 @@ a { color: inherit; text-decoration: none; }
 button { font: inherit; }
 
 .site-shell {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   background: #050505;
   color: #fff;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   cursor: none;
 }
+.site-shell main { flex: 1; }
 
 .cursor-dot,
 .cursor-ring {
@@ -209,8 +212,8 @@ button { font: inherit; }
 
 .section { max-width: 1280px; margin: 0 auto; padding: clamp(5rem, 10vw, 8rem) 1rem; }
 .page { padding-top: 5rem; min-height: 100vh; }
-.section-title h2,
-.section-head h2 {
+.section-title :is(h1, h2),
+.section-head :is(h1, h2) {
   margin: 0;
   max-width: min(980px, 100%);
   /* Как было: ~51–112px */
@@ -223,7 +226,7 @@ button { font: inherit; }
   word-break: normal;
   hyphens: none;
 }
-.final-cta h2 {
+.final-cta :is(h1, h2) {
   margin: 0;
   max-width: 980px;
   font-size: clamp(3.2rem, 10vw, 7rem);
@@ -290,7 +293,7 @@ button { font: inherit; }
 .training-list { display: grid; gap: .9rem; margin-top: 2rem; }
 .training-row { display: grid; gap: 1rem; align-items: center; border-top: 1px solid rgba(255,255,255,.12); padding: 2rem 0; }
 .training-row span { color: #777; font-size: .75rem; font-weight: 1000; letter-spacing: .26em; text-transform: uppercase; }
-.training-row h3 {
+.training-row :is(h2, h3) {
   margin: 0;
   font-size: clamp(1.85rem, 6.5vw, 4.6rem);
   line-height: .92;
@@ -366,6 +369,88 @@ button { font: inherit; }
     padding: clamp(1.5rem, 4vw, 48px);
   }
 }
+.site-footer {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border-top: 1px solid rgba(255,255,255,.1);
+  background: #050505;
+  box-sizing: border-box;
+}
+.site-footer__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1.35rem clamp(1rem, 4vw, 3rem) 1.25rem;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+.site-footer__name {
+  margin: 0;
+  color: #fff;
+  font-size: .95rem;
+  font-weight: 800;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+.site-footer__meta,
+.site-footer__note {
+  margin: 0;
+  color: #8d8d8d;
+  font-size: .84rem;
+  line-height: 1.5;
+}
+.site-footer__meta { margin-top: .35rem; }
+.site-footer__legal {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .4rem;
+  color: #dedede;
+  font-size: .95rem;
+  line-height: 1.4;
+  text-align: right;
+}
+.site-footer__legal a:hover { color: #fff; }
+.site-footer__note {
+  padding: 1.15rem clamp(1rem, 4vw, 3rem) 1.4rem;
+}
+
+.legal-doc { max-width: 820px; }
+.legal-updated {
+  margin: 0 0 1rem;
+  color: #777;
+  font-size: .72rem;
+  font-weight: 900;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+}
+.legal-doc h1 {
+  margin: 0 0 2rem;
+  max-width: 16ch;
+  font-size: clamp(2.4rem, 7vw, 4.6rem);
+  line-height: .9;
+  letter-spacing: -.06em;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+.legal-doc h2 {
+  margin: 2.2rem 0 .75rem;
+  font-size: 1rem;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.legal-doc p,
+.legal-doc li {
+  color: #c8c8c8;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+.legal-doc p { margin: 0 0 .9rem; }
+.legal-doc ul { margin: 0 0 .9rem; padding-left: 1.2rem; }
+.legal-doc li + li { margin-top: .35rem; }
+.legal-doc a { text-decoration: underline; text-underline-offset: .18em; }
+
 @keyframes marquee { to { transform: translateX(-50%); } }
 @keyframes pulse { 50% { opacity: .35; transform: scaleX(.7); } }
 .loader-enter-active, .loader-leave-active, .menu-enter-active, .menu-leave-active { transition: opacity .45s ease, transform .45s ease; }
@@ -515,8 +600,8 @@ button { font: inherit; }
   .eyebrow { letter-spacing: .16em; }
 
   /* Мобилка: чуть крупнее, но всё ещё помещается */
-  .section-title h2,
-  .section-head h2 {
+  .section-title :is(h1, h2),
+  .section-head :is(h1, h2) {
     font-size: clamp(2.45rem, 9.5vw, 3.7rem);
     line-height: .94;
     letter-spacing: -.055em;
@@ -526,7 +611,7 @@ button { font: inherit; }
     padding: 1.65rem 1.25rem;
     gap: 1.25rem;
   }
-  .final-cta h2 {
+  .final-cta :is(h1, h2) {
     font-size: clamp(2.7rem, 11vw, 3.5rem);
     line-height: .9;
     letter-spacing: -.055em;
@@ -553,6 +638,18 @@ button { font: inherit; }
   }
   .contacts-page-card {
     margin-top: 5.5rem;
+  }
+
+  .site-footer__top {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.15rem;
+    padding: 1.1rem 1rem 1rem;
+  }
+  .site-footer__legal {
+    align-items: flex-start;
+    text-align: left;
+    font-size: .9rem;
   }
 
   .feature-card {

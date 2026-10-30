@@ -18,7 +18,6 @@
       <RouterLink v-for="item in nav" :key="item.to" :to="item.to" @click="menuOpen = false">{{ item.label }}</RouterLink>
       <a href="tel:+79620062726">Позвонить</a>
       <a href="https://t.me/Nikita_Chapligin" target="_blank">Telegram</a>
-      <a href="https://www.instagram.com/nikita__chapligin/" target="_blank">Instagram</a>
     </nav>
   </Transition>
 </template>
