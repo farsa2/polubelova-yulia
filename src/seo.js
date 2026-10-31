@@ -33,7 +33,7 @@ const pages = {
     path: '/contacts',
     title: 'Запись на кикбоксинг в Сочи',
     description:
-      'Запись на пробную тренировку по кикбоксингу в Сочи. Telegram @polubelova55, телефон +7 918 605-58-06, почта ulabelay2904@gmail.com.',
+      'Запись на пробную тренировку по кикбоксингу в Сочи. Telegram @polubelova55, телефон +7 918 605-58-06.',
     crumb: 'Контакты',
     preload: '/media/yulia-portrait.jpg',
   },
@@ -117,7 +117,6 @@ function schema({ origin, page }) {
       jobTitle: 'Тренер по кикбоксингу',
       description: 'Мастер спорта России. Тренер секции кикбоксинга для детей и взрослых в Сочи.',
       telephone: '+7-918-605-58-06',
-      email: 'ulabelay2904@gmail.com',
       url: origin || undefined,
       image: image || undefined,
       address: {

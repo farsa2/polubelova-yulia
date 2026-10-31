@@ -85,11 +85,10 @@
       <div>
         <p class="eyebrow dark">Контакты</p>
         <h2>Запишись на<br />пробную<br />тренировку</h2>
-        <p>Кикбоксинг в Сочи · Telegram: @polubelova55 · +7 918 605-58-06 · ulabelay2904@gmail.com</p>
+        <p>Кикбоксинг в Сочи · Telegram: @polubelova55 · +7 918 605-58-06</p>
         <div class="hero-actions">
           <a class="btn btn-black magnetic" href="https://t.me/polubelova55" target="_blank">Telegram</a>
           <a class="btn btn-black-outline magnetic" href="tel:+79186055806">Позвонить</a>
-          <a class="btn btn-black-outline magnetic" href="mailto:ulabelay2904@gmail.com">Почта</a>
         </div>
       </div>
       <img class="image-card cta-image" :src="media('kids-team.jpg')" width="768" height="1024" alt="Детская группа на тренировке по кикбоксингу" loading="lazy" decoding="async" />

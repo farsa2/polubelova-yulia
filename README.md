@@ -22,4 +22,3 @@ npm run build
 Контакты:
 - Telegram: @polubelova55
 - Телефон: +7 918 605-58-06
-- Почта: ulabelay2904@gmail.com
