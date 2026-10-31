@@ -56,8 +56,8 @@
     <section class="section video-section">
       <SectionTitle eyebrow="Видео" title="Как проходят тренировки" />
       <div class="video-grid">
-        <LoopVideo :src="media('yulia-training.webm')" :poster="media('yulia-training.jpg')" label="Тренировка по кикбоксингу" width="767" height="1024" />
-        <LoopVideo :src="media('yulia-training-2.webm')" :poster="media('yulia-kids-line.jpg')" label="Кикбоксинг для детей в Сочи" width="775" height="1024" />
+        <LoopVideo :src="media('yulia-kickboxing-1.mp4')" type="video/mp4" :poster="media('yulia-kickboxing-1.jpg')" label="Тренировка по кикбоксингу" width="720" height="1280" />
+        <LoopVideo :src="media('yulia-kickboxing-2.mp4')" type="video/mp4" :poster="media('yulia-kickboxing-2.jpg')" label="Кикбоксинг для детей в Сочи" width="720" height="1280" />
       </div>
     </section>
 
