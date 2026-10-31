@@ -529,14 +529,20 @@ button { font: inherit; }
   gap: 1rem;
   margin-top: 2rem;
 }
+.video-grid__item {
+  height: 800px;
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: 2rem;
+  background: #111;
+}
 .video-grid video {
   display: block;
   width: 100%;
-  height: auto;
-  aspect-ratio: 9 / 14;
+  height: 100%;
   object-fit: cover;
-  border: 1px solid rgba(255,255,255,.1);
-  border-radius: 2rem;
+  border: 0;
+  border-radius: 0;
   background: #111;
   filter: grayscale(1) contrast(1.08);
   transition: filter .45s ease, transform .45s ease;
@@ -545,6 +551,9 @@ button { font: inherit; }
 .video-grid video:hover {
   filter: grayscale(0) contrast(1.02);
   transform: scale(1.01);
+}
+@media (min-width: 760px) {
+  .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 .coach-gallery .image-card,
 .coach-gallery video { min-height: 270px; }
@@ -557,9 +566,6 @@ button { font: inherit; }
 .coach-gallery video:hover {
   filter: grayscale(0) contrast(1.02);
   transform: scale(1.01);
-}
-@media (min-width: 760px) {
-  .video-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 959px) {
   .coach-hero {

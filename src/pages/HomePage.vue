@@ -56,15 +56,19 @@
     <section class="section video-section">
       <SectionTitle eyebrow="Видео" title="Как проходят тренировки" />
       <div class="video-grid">
-        <LoopVideo :src="media('yulia-kickboxing-1.mp4')" type="video/mp4" :poster="media('yulia-kickboxing-1.jpg')" label="Тренировка по кикбоксингу" />
-        <LoopVideo :src="media('yulia-kickboxing-2.mp4')" type="video/mp4" :poster="media('yulia-kickboxing-2.jpg')" label="Кикбоксинг для детей в Сочи" />
+        <div class="video-grid__item">
+          <LoopVideo :src="media('yulia-training-part1.webm')" :poster="media('yulia-training-part1.jpg')" label="Тренировка по кикбоксингу" />
+        </div>
+        <div class="video-grid__item">
+          <LoopVideo :src="media('yulia-training-part2.webm')" :poster="media('yulia-training-part2.jpg')" label="Кикбоксинг для детей в Сочи" />
+        </div>
       </div>
     </section>
 
     <section class="section gallery-section">
       <SectionTitle eyebrow="Атмосфера" title="Кикбоксинг для детей" />
       <div class="gallery-grid coach-gallery">
-        <LoopVideo class="gallery-big image-card" :src="media('yulia-training-2.webm')" :poster="media('yulia-training-2.jpg')" label="Кикбоксинг для детей в Сочи" width="720" height="1280" />
+        <LoopVideo class="gallery-big image-card" :src="media('yulia-training-first-10s.webm')" :poster="media('yulia-training-first-10s.jpg')" label="Кикбоксинг для детей в Сочи" width="720" height="1280" />
         <img class="image-card" :src="media('yulia-kids-line.jpg')" width="775" height="1024" alt="Юлия Полубелова с детской группой" loading="lazy" decoding="async" />
         <img class="image-card" :src="media('yulia-training.jpg')" width="767" height="1024" alt="Юлия Полубелова на тренировке по кикбоксингу" loading="lazy" decoding="async" />
         <img class="image-card" :src="media('yulia-competition.jpg')" width="576" height="1024" alt="Юлия Полубелова на тренировке с учеником" loading="lazy" decoding="async" />
