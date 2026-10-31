@@ -64,7 +64,7 @@
     <section class="section gallery-section">
       <SectionTitle eyebrow="Атмосфера" title="Кикбоксинг для детей" />
       <div class="gallery-grid coach-gallery">
-        <img class="gallery-big image-card" :src="media('kids-team.jpg')" width="768" height="1024" alt="Детская группа кикбоксинга в Сочи" loading="lazy" decoding="async" />
+        <LoopVideo class="gallery-big image-card" :src="media('yulia-training-2.webm')" :poster="media('yulia-training-2.jpg')" label="Кикбоксинг для детей в Сочи" width="720" height="1280" />
         <img class="image-card" :src="media('yulia-kids-line.jpg')" width="775" height="1024" alt="Юлия Полубелова с детской группой" loading="lazy" decoding="async" />
         <img class="image-card" :src="media('yulia-training.jpg')" width="767" height="1024" alt="Юлия Полубелова на тренировке по кикбоксингу" loading="lazy" decoding="async" />
         <img class="image-card" :src="media('yulia-competition.jpg')" width="576" height="1024" alt="Юлия Полубелова на тренировке с учеником" loading="lazy" decoding="async" />
