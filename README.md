@@ -20,7 +20,6 @@ npm run build
 Фото и видео находятся в `public/media`.
 
 Контакты:
-- Telegram: @Nikita_Chapligin
-- Instagram: nikita__chapligin
-- Телефон: +7 962 006-27-26
-- Адрес: Ставрополь, 2 Юго-Западный проезд, 2Б
+- Telegram: @polubelova55
+- Телефон: +7 918 605-58-06
+- Почта: ulabelay2904@gmail.com

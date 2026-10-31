@@ -33,7 +33,7 @@ const pages = {
     path: '/contacts',
     title: 'Запись на кикбоксинг в Сочи',
     description:
-      'Запись на пробную тренировку по кикбоксингу в Сочи. Telegram @Nikita_Chapligin, телефон +7 962 006-27-26. Занятия организует спортивная школа.',
+      'Запись на пробную тренировку по кикбоксингу в Сочи. Telegram @polubelova55, телефон +7 918 605-58-06, почта ulabelay2904@gmail.com.',
     crumb: 'Контакты',
     preload: '/media/yulia-portrait.jpg',
   },
@@ -116,7 +116,8 @@ function schema({ origin, page }) {
       name: 'Юлия Полубелова',
       jobTitle: 'Тренер по кикбоксингу',
       description: 'Мастер спорта России. Тренер секции кикбоксинга для детей и взрослых в Сочи.',
-      telephone: '+7-962-006-27-26',
+      telephone: '+7-918-605-58-06',
+      email: 'ulabelay2904@gmail.com',
       url: origin || undefined,
       image: image || undefined,
       address: {
@@ -124,7 +125,7 @@ function schema({ origin, page }) {
         addressLocality: 'Сочи',
         addressCountry: 'RU',
       },
-      sameAs: ['https://t.me/Nikita_Chapligin'],
+      sameAs: ['https://t.me/polubelova55'],
       knowsAbout: ['Кикбоксинг', 'Кикбоксинг для детей', 'Кикбоксинг для взрослых'],
     },
     {

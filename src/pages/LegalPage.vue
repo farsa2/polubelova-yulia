@@ -26,9 +26,11 @@
         </p>
         <p>
           Телефон:
-          <a href="tel:+79620062726">+7 962 006-27-26</a><br>
+          <a href="tel:+79186055806">+7 918 605-58-06</a><br>
           Telegram:
-          <a href="https://t.me/Nikita_Chapligin" target="_blank" rel="noopener noreferrer">@Nikita_Chapligin</a>
+          <a href="https://t.me/polubelova55" target="_blank" rel="noopener noreferrer">@polubelova55</a><br>
+          Почта:
+          <a href="mailto:ulabelay2904@gmail.com">ulabelay2904@gmail.com</a>
         </p>
       </section>
 

@@ -11,8 +11,8 @@
         <h1 class="hero-title"><span>Юлия</span><span>Полубелова</span></h1>
         <p class="hero-text">Тренер по кикбоксингу в Сочи. Секция для детей и взрослых. Победительница Всероссийских турниров и Кубка Мира, финалистка Первенства России.</p>
         <div class="hero-actions">
-          <a class="btn btn-white magnetic" href="https://t.me/Nikita_Chapligin" target="_blank">Записаться на пробную</a>
-          <a class="btn btn-outline magnetic" href="tel:+79620062726">Позвонить</a>
+          <a class="btn btn-white magnetic" href="https://t.me/polubelova55" target="_blank">Записаться на пробную</a>
+          <a class="btn btn-outline magnetic" href="tel:+79186055806">Позвонить</a>
         </div>
       </div>
 
@@ -85,10 +85,11 @@
       <div>
         <p class="eyebrow dark">Контакты</p>
         <h2>Запишись на<br />пробную<br />тренировку</h2>
-        <p>Кикбоксинг в Сочи · Telegram: @Nikita_Chapligin · Телефон: +7 962 006-27-26</p>
+        <p>Кикбоксинг в Сочи · Telegram: @polubelova55 · +7 918 605-58-06 · ulabelay2904@gmail.com</p>
         <div class="hero-actions">
-          <a class="btn btn-black magnetic" href="https://t.me/Nikita_Chapligin" target="_blank">Telegram</a>
-          <a class="btn btn-black-outline magnetic" href="tel:+79620062726">Позвонить</a>
+          <a class="btn btn-black magnetic" href="https://t.me/polubelova55" target="_blank">Telegram</a>
+          <a class="btn btn-black-outline magnetic" href="tel:+79186055806">Позвонить</a>
+          <a class="btn btn-black-outline magnetic" href="mailto:ulabelay2904@gmail.com">Почта</a>
         </div>
       </div>
       <img class="image-card cta-image" :src="media('kids-team.jpg')" width="768" height="1024" alt="Детская группа на тренировке по кикбоксингу" loading="lazy" decoding="async" />

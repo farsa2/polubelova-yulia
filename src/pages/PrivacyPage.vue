@@ -14,9 +14,11 @@
         <p>1.2. Оператором персональных данных является Юлия Полубелова, тренер по кикбоксингу, г. Сочи.</p>
         <p>
           Телефон:
-          <a href="tel:+79620062726">+7 962 006-27-26</a><br>
+          <a href="tel:+79186055806">+7 918 605-58-06</a><br>
           Telegram:
-          <a href="https://t.me/Nikita_Chapligin" target="_blank" rel="noopener noreferrer">@Nikita_Chapligin</a>
+          <a href="https://t.me/polubelova55" target="_blank" rel="noopener noreferrer">@polubelova55</a><br>
+          Почта:
+          <a href="mailto:ulabelay2904@gmail.com">ulabelay2904@gmail.com</a>
         </p>
         <p>
           1.3. Использование сайта и обращение к Оператору через телефон или мессенджер
@@ -82,9 +84,11 @@
           Данные хранятся до достижения цели обработки или до отзыва согласия.
           Пользователь может отозвать согласие и попросить уточнить или удалить
           свои данные, написав в Telegram
-          <a href="https://t.me/Nikita_Chapligin" target="_blank" rel="noopener noreferrer">@Nikita_Chapligin</a>
+          <a href="https://t.me/polubelova55" target="_blank" rel="noopener noreferrer">@polubelova55</a>,
+          на почту
+          <a href="mailto:ulabelay2904@gmail.com">ulabelay2904@gmail.com</a>
           или позвонив по телефону
-          <a href="tel:+79620062726">+7 962 006-27-26</a>.
+          <a href="tel:+79186055806">+7 918 605-58-06</a>.
         </p>
       </section>
 

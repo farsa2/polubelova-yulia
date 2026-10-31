@@ -6,7 +6,7 @@
       <RouterLink v-for="item in nav" :key="item.to" :to="item.to">{{ item.label }}</RouterLink>
     </nav>
 
-    <a class="header-cta magnetic" href="https://t.me/Nikita_Chapligin" target="_blank">Telegram</a>
+    <a class="header-cta magnetic" href="https://t.me/polubelova55" target="_blank">Telegram</a>
 
     <button class="burger" type="button" @click="menuOpen = !menuOpen" aria-label="Открыть меню">
       <span></span><span></span>
@@ -16,8 +16,9 @@
   <Transition name="menu">
     <nav v-if="menuOpen" class="mobile-nav">
       <RouterLink v-for="item in nav" :key="item.to" :to="item.to" @click="menuOpen = false">{{ item.label }}</RouterLink>
-      <a href="tel:+79620062726">Позвонить</a>
-      <a href="https://t.me/Nikita_Chapligin" target="_blank">Telegram</a>
+      <a href="tel:+79186055806">Позвонить</a>
+      <a href="https://t.me/polubelova55" target="_blank">Telegram</a>
+      <a href="mailto:ulabelay2904@gmail.com">Почта</a>
     </nav>
   </Transition>
 </template>
